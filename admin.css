@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Noto+Sans:wght@300&family=Open+Sans&family=Poppins:wght@200&family=Roboto:wght@300&family=Smooch+Sans:wght@300&display=swap');
+:root
+{
+    --light:#8ecae6;
+    --slight:#219ebc;
+    --dark:#023047;
+    --yellow:#ffb703;
+    --orange:#fb8500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Smooch Sans', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu
+{
+    height: 1000px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    background-color: #023047;
+}
+.menuitem
+{
+    height: 10rem;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    background-color: #023047;
+    margin-top:3rem;
+    margin-left:2rem;
+    justify-content: space-between;
+}
+a
+{
+    font-size: 30px;
+    margin-top:30%;
+    padding: 5%;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    border-radius:20px;
+}
+a:hover
+{
+    background-color: #fb8500;
+    color: black;
+}
+.logo
+{
+   display: flex;
+   justify-content: center;
+   margin-top:2rem;
+   
+}
+img
+{
+    height: 100px;
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
