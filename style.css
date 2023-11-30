@@ -145,7 +145,7 @@ header .bt {
     left: 20%;
 }
 
-button {
+button{
     height: 50px;
     width: 100px;
     font-family: 'lato' sans-serif;
@@ -158,6 +158,9 @@ button {
 button:hover {
     width: 125px;
     background-color: black;
+   
+}
+button a:hover{
     color:white;
 }
 

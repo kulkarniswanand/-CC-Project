@@ -7,6 +7,7 @@
     <title>Cafe Crush</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="admin.css" />
+    <script src="admin.js"></script>
 </head>
 
 <body>
@@ -16,17 +17,18 @@
         </div>
         <div class="menuitem">
             <a href="#">DashBoard</a>
-            <a href="#">Orders</a>
+            <a onclick="order()" id="ord">Orders</a>
             <a href="#">Update</a>
             <a href="#">Feedbacks</a>
             <a href="#">Income</a>
         </div>
     </div>
+    
 
 
-    <div class="orders">
-        <div class="table">
-            <table>
+    <!-- <div class="orders"> -->
+        <div class="ordertable">
+            <table id="tb">
                 <tr>
                     <th>Order No.</th>
                     <th>Item Name</th>
@@ -43,7 +45,11 @@
                 </tr>
             </table>
         </div>
-    </div>
-</body>
+    <!-- </div> -->
+    
 
+
+   
+</body>
+   
 </html>
