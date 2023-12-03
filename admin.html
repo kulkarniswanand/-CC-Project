@@ -2,54 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafe Crush</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="admin.css" />
-    <script src="admin.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Crush</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="admin.css" />
+  <script src="admin.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <div class="menu">
-        <div class="logo">
-            <img src="/images/logo1.jpg" />
-        </div>
-        <div class="menuitem">
-            <a href="#">DashBoard</a>
-            <a onclick="order()" id="ord">Orders</a>
-            <a href="#">Update</a>
-            <a href="#">Feedbacks</a>
-            <a href="#">Income</a>
-        </div>
+  <div class="menu">
+    <div class="logo">
+      <img src="/images/logo1.jpg" />
     </div>
-    
+    <div class="menuitem">
+      <a href="#">DashBoard</a>
+      <a onclick="order()" id="ord">Orders</a>
+      <a href="#">Update</a>
+      <a href="#">Feedbacks</a>
+      <a href="#">Income</a>
+    </div>
+  </div>
 
+  <div class="orders">
+    <div class="body-under">
+      <h1 class="heading">New Orders</h1>
+    </div>
+    <div class="ordertable">
 
-    <!-- <div class="orders"> -->
-        <div class="ordertable">
-            <table id="tb">
-                <tr>
-                    <th>Order No.</th>
-                    <th>Item Name</th>
-                    <th>Price</th>
-                    <th>Acceptance</th>
-                    <th>Status</th>
-                </tr>
-                <tr>
-                    <td>100</td>
-                    <td>Pizza</td>
-                    <td>Rs 500</td>
-                    <td>Accept</td>
-                    <td>Completed</td>
-                </tr>
-            </table>
-        </div>
-    <!-- </div> -->
-    
+      <table id="tb">
+        <tr>
+          <th>Order No.</th>
+          <th>Item Name</th>
+          <th>Price</th>
+          <th>Category</th>
+          <th>Table No.</th>
+          <th>Acceptance</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Pizza</td>
+          <td>Rs 500</td>
+          <td>Pizza</td>
+          <td>4</td>
+          <td><i class="fa-solid fa-xmark" style="color: #e10909;"></i><i onclick="checked(this)" class="fa-solid fa-check"
+              style="color: #12ed02;"></i></td>
+        </tr>
 
+      </table>
+    </div>
 
-   
+    <div class="body-under">
+      <h1 class="heading">Pending orders</h1>
+    </div>
+    <div class="ordertable">
+
+      <table id="tb1">
+        <tr>
+          <th>Order No.</th>
+          <th>Item Name</th>
+          <th>Price</th>
+          <th>Category</th>
+          <th>Table No.</th>
+          <th>Acceptance</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Pizza</td>
+          <td>Rs 500</td>
+          <td>Pizza</td>
+          <td>4</td>
+          <td><i class="fa-solid fa-xmark" style="color: #e10909;"></i><i class="fa-solid fa-check"
+              style="color: #12ed02;"></i></td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div class="body-under">
+      <h1 class="heading">Completed orders</h1>
+    </div>
+    <div class="ordertable">
+
+      <table id="tb2">
+        <tr>
+          <th>Order No.</th>
+          <th>Item Name</th>
+          <th>Price</th>
+          <th>Category</th>
+          <th>Table No.</th>
+          <th>Acceptance</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Pizza</td>
+          <td>Rs 500</td>
+          <td>Pizza</td>
+          <td>4</td>
+          <td><i class="fa-solid fa-xmark" style="color: #e10909;"></i><i class="fa-solid fa-check"
+              style="color: #12ed02;"></i></td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+ 
 </body>
-   
+
 </html>
